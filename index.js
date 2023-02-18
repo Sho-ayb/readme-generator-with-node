@@ -98,7 +98,7 @@ const askUser = () => {
     .then((answers) => {
       console.log(answers);
 
-      writeFile("readme.md", generateMarkdown(answers));
+      writeFile("readmeSample.md", generateMarkdown(answers));
     });
 };
 
@@ -106,7 +106,7 @@ const askUser = () => {
 const writeFile = (fileName, rawData) => {
   const data = Buffer.from(rawData, "utf8");
 
-  fs.writeFile(filename, data, (err) => {
+  fs.writeFile(fileName, data, (err) => {
     if (err) console.log(err);
     else {
       console.log("File written successfully\n");

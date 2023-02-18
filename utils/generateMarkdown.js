@@ -12,57 +12,77 @@ function generateMarkdown(data) {
     emailaddress,
   } = data;
 
+  console.log(
+    title,
+    description,
+    installation,
+    usage,
+    licence,
+    guidelines,
+    testapp,
+    githuburl,
+    emailaddress
+  );
+
   const markdown = `
-  
-  # Project Title
-  ---
+TABLE OF CONTENTS 
 
-  # ${title}
+- [Project Title](#project-title)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Guidelines](#guidelines)
+- [Testing the Application](#testing-the-application)
+- [Github](#github)
+- [Contact Us](#contact-us)
+- [Licence](#licence) 
 
-  # Description
-  ---
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-  ${description}
+# Project Title
 
-  # Installation
-  ---
+${title}
 
-  ${installation}
+# Description
 
-  # Usage
-  --- 
+${description}
 
-  ${usage}
+# Installation
 
-  # Guidelines
-  ---
-  
-  ${guidelines}
-  
-  # Testing the Application
-  ---
-  
-  ${testapp}
-  
-  # Github 
-  ---
-  
-  ${githuburl}
-  
-  # Contact Us
-  ---
-  
-  ${emailaddress}
-  
-  # Licence
-  ---
+${installation}
 
-  ${licence}
+# Usage
 
+${usage}
 
-  `;
+# Guidelines
 
-  return markdown;
+${guidelines}
+
+# Testing the Application
+
+${testapp}
+
+# Github 
+
+${githuburl}
+
+# Contact Us
+
+${emailaddress}
+
+# Licence
+
+${licence}
+
+`;
+
+  return markdown.trim();
 }
 
 module.exports = generateMarkdown;
