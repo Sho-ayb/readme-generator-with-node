@@ -103,7 +103,18 @@ const askUser = () => {
 };
 
 // function to write README file
-const writeFile = (fileName, data) => {};
+const writeFile = (fileName, rawData) => {
+  const data = Buffer.from(rawData, "utf8");
+
+  fs.writeFile(filename, data, (err) => {
+    if (err) console.log(err);
+    else {
+      console.log("File written successfully\n");
+      console.log("The file has the following contents: ");
+      console.log(fs.readFileSync(fileName, "utf8"));
+    }
+  });
+};
 
 // function to initialize program
 const init = () => {
