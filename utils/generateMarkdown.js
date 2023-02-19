@@ -51,7 +51,7 @@ function generateMarkdown(data) {
   const markdown = `
 ${licenceBadge}
 
-# TABLE OF CONTENTS 
+## TABLE OF CONTENTS 
 
 - [Project Title](#project-title)
 - [Description](#description)
