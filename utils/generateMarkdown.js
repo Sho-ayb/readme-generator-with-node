@@ -51,62 +51,56 @@ function generateMarkdown(data) {
   const markdown = `
 ${licenceBadge}
 
-## TABLE OF CONTENTS 
+# TABLE OF CONTENTS 
 
-- [Project Title](#project-title)
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Guidelines](#guidelines)
-- [Testing the Application](#testing-the-application)
-- [Github](#github)
-- [Contact Us](#contact-us)
-- [Licence](#licence) 
+[Project Title](#project-title)
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[Guidelines](#guidelines)
+[Testing the Application](#testing-the-application)
+[Github](#github)
+[Contact Us](#contact-us)
+[Licence](#licence) 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-# Project Title
+## Project Title
 
 ${title}
 
-# Description
+## Description
 
 ${description}
 
-# Installation
+## Installation
 
 ${installation}
 
-# Usage
+## Usage
 
 ${usage}
 
-# Guidelines
+## Guidelines
 
 ${guidelines}
 
-# Testing the Application
+## Testing the Application
 
 ${testapp}
 
-# Github 
+## Github 
 
 ${githuburl}
 
-# Contact Us
+## Contact Us
 
 ${emailaddress}
 
-# Licence
+## Licence
 
 ${licence}
 
 Please click on the badge for more details on the licence.
+
 ${licenceBadge}
 
 `;

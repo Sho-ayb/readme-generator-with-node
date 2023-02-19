@@ -1,59 +1,53 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## TABLE OF CONTENTS 
+# TABLE OF CONTENTS 
 
-- [Project Title](#project-title)
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Guidelines](#guidelines)
-- [Testing the Application](#testing-the-application)
-- [Github](#github)
-- [Contact Us](#contact-us)
-- [Licence](#licence) 
+[Project Title](#project-title)
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[Guidelines](#guidelines)
+[Testing the Application](#testing-the-application)
+[Github](#github)
+[Contact Us](#contact-us)
+[Licence](#licence) 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+## Project Title
 
-# Project Title
+Your project name
 
-Readme Generator
+## Description
 
-# Description
+project details 
 
-Readme Generator creates a readme.md file from a set of user answers at the command prompt.
+## Installation
 
-# Installation
+project details
 
-Readme Generator does not require an installation to generate a readme.md file.
+## Usage
 
-# Usage
+pressing enter key will open a text editor, enter the details of using the application and save this file. 
 
-At a bash terminal navigate to the root of the directory where index.js is stored. Run the following command  - node index.js and complete the answers to the questions at the command prompt.   
+## Guidelines
 
-# Guidelines
+enter the details of contribution here
 
-If you like to contribute to the project, please contact us with a description on how you can contribute to the project.  
+## Testing the Application
 
-# Testing the Application
+enter details on how to test this app here
 
-Run the application and answer all the questions, once completed check the readme file generated and see if your answers are displayed.
+## Github 
 
-# Github 
+the github url
 
-https://github.com/Sho-ayb?tab=repositories
+## Contact Us
 
-# Contact Us
+your email address
 
-example@email.com
-
-# Licence
+## Licence
 
 MIT License
 
 Please click on the badge for more details on the licence.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
