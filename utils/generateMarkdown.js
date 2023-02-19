@@ -91,7 +91,7 @@ ${testapp}
 
 ${githuburl}
 
-## Contact Us
+## Questions
 
 ${emailaddress}
 
